@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pylab as plt
 import scipy.io as spio
 
-import RecessionAnalysis_pow as rec
+import RecessionAnalysis as rec
 reload(rec)
 
 mat = spio.loadmat('BoulderQ.mat', squeeze_me=True)
